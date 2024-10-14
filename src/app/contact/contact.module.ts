@@ -11,7 +11,7 @@ import { ContactPage } from './contact.page';
 import { MatInputModule } from '@angular/material/input';
 import { MatSelectModule } from '@angular/material/select';
 import { MatButtonModule } from '@angular/material/button';
-import { NgxIntlTelInputModule } from 'ngx-intl-tel-input';
+
 import { HttpClientModule } from '@angular/common/http';
 
 @NgModule({
@@ -25,7 +25,6 @@ import { HttpClientModule } from '@angular/common/http';
     MatInputModule,
     MatSelectModule,
     MatButtonModule,
-    NgxIntlTelInputModule,
     HttpClientModule,
   ],
   declarations: [ContactPage],
